@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+        src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+    <title>Website</title>
+</head>
+
+<body class="m-0">
+
+    <!-- Header section start -->
+
+    <div class=" container mx-auto relative">
+        <video class="bg-video w-full h-screen object-cover fixed top-0 bottom-0 left-0 right-0 "  autoplay
+            muted loop preload="metadata"> <source src="./Image/bg.mp4" type="video/mp4"></source></video>
+        <div class="container mx-auto absolute">
+            <div class="container mx-auto py-5">
+                <div
+                    class="flex justify-between items-center bg-gradient-to-r from-cyan-500 to-blue-500 px-2 rounded-2xl sticky z-auto max-w-xs mx-auto sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl py-4">
+                    <div class="w-1/2">
+                        <h2 class="text-white text-xl font-serif font-semibold">Develop</h2>
+                    </div>
+                    <div class="hidden w-1/2 md:block">
+                        <ul
+                            class="flex text-white tracking-wider justify-around items-center font-sans uppercase text-md font-bold">
+                            <li><a href="#">About</a>
+                            </li>
+                            <li><a href="#">Skill</a>
+                            </li>
+                            <li><a href="#">Projects</a>
+                            </li>
+                            <li><a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="md:hidden">
+                        <img class="" src="./Image/menu.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="container mx-auto py-5">
+                <div class="max-w-xs mx-auto sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl">
+                    <div class="pb-8 justify-center flex">
+                        <img class="w-full h-1/2" src="./Image/9.webp" alt="">
+                    </div>
+                    <div class="">
+                        <h1 class="text-3xl font-sans font-extrabold pb-2 tracking-wider text-white">Front-End React<br> Developer
+                        </h1>
+                        <p class="text-md pb-2 font-serif text-white">Hi, I am Tamizharasu. A passionate Front-end React <br>
+                            Developer based in Tamilnadu, India</p>
+                        <div class="flex">
+                            <img class="w-8 pr-2" src="./Image/2.svg" alt="">
+                            <img class="w-8 pr-2" src="./Image/3.svg" alt="">
+                            <img class="w-8 pr-2" src="./Image/4.svg" alt="">
+                            <img class="w-8 pr-2" src="./Image/5.svg" alt="">
+                            <img class="w-8 pr-2" src="./Image/6.svg" alt="">
+                            <img class="w-8 pr-2" src="./Image/7.svg" alt="">
+                            <img class="w-8 pr-2" src="./Image/8.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="hidden">
+                        <img class="w-full h-1/2" src="./Image/9.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="container mx-auto py-5">
+                <div class="max-w-xs mx-auto sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl">
+                    <div class="">
+                        <img class="" src="./Image/10.webp" alt="">
+                    </div>
+                    <div class="pt-5">
+                        <h5 class="text-2xl uppercase font-extrabold font-serif text-blue-700">about me</h5>
+                        <h2 class="text-2xl font-sans font-extrabold pb-2 tracking-wider pt-2 text-white">Front-End React Developer
+                            <br> based in
+                            Tamilnadu, India
+                        </h2>
+                        <p class="bt-2 text-md font-sans text-white">Hii, My name is Tamizharasu, and Im a Frontend Developer. My
+                            passion is to create and develop a clean UI/UX.</p>
+                        <p class="pt-2 text-md font-sans text-white">My main stack currently is React/Next.js in combination with
+                            Tailwind CSS</p>
+                        <button>Resume</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container mx-auto py-5">
+                <div class="max-w-xs mx-auto sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl">
+                    <div class="">
+                        <img class="" src="./Image/11.webp" alt="">
+                    </div>
+                    <div class="pt-5">
+                        <h2 class="text-2xl uppercase font-extrabold font-serif text-blue-700">Skills</h2>
+                        <ul>
+                            <li class="font-sans text-md text-justify pb-2 text-white">Explore techniques for optimizing React
+                                performance,
+                                including memoization and lazy loading.</li>
+                            <li class="font-sans text-md text-justify pb-2 text-white">State Management ,Styling and
+                                Design,Performance
+                                Optimization.</li>
+                            <li class="font-sans text-md text-justify pb-2 text-white">Develop soft skills such as effective
+                                communication,
+                                problem-solving, and collaboration,
+                                which are essential for working in a team environment and interacting with clients and
+                                stakeholders.</li>
+                        </ul>
+                    </div>
+                    <div class="hidden">
+                        <img class="" src="./Image/11.webp" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="container mx-auto py-5">
+                <div class="max-w-xs mx-auto sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-7xl">
+                    <div class="">
+                        <img class="" src="./Image/12.webp" alt="">
+                    </div>
+                    <div class="pt-5 text-center">
+                        <h2 class="text-2xl uppercase font-extrabold font-serif text-blue-700 pb-5">contact</h2>
+                        <div class="flex items-center pt-3 justify-center">
+                            <img class="w-6 h-6 " src="./Image/13.webp" alt="">
+                            <h3 class="uppercase font-serif pl-1 text-lg font-extrabold text-white">Address</h3>
+                        </div>
+                        <p class="text-md text-white">33 Banavaram Post, Nemili Taluk, Ranipet District,
+                            Tamilnadu-632 505</p>
+                        <div class="flex items-center pt-2 justify-center">
+                            <img class="w-6 h-6" src="./Image/14.webp" alt="">
+                            <h3 class="uppercase font-serif pl-1 text-lg font-extrabold text-white">phone</h3>
+                        </div>
+                        <p class="underline cursor-pointer text-md text-white">+91-9361366518</p>
+                        <div class="flex items-center pt-3 justify-center">
+                            <img class="w-6 h-6" src="./Image/15.webp" alt="">
+                            <h3 class="uppercase font-serif pl-1 text-lg font-extrabold text-white">email</h3>
+                        </div>
+                        <p class="underline cursor-pointer text-md text-white">manotamizhkkm@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
